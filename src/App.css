@@ -3,10 +3,29 @@
 }
 
 .navbar-gradient {
-  background: rgb(2, 0, 36);
+  /* background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 35%,
     rgba(0, 30, 164, 1) 100%
-  );
+  ); */
+  /* background: rgb(14, 0, 255);
+  background: linear-gradient(
+    185deg,
+    rgba(14, 0, 255, 1) 0%,
+    rgba(2, 0, 36, 1) 21%,
+    rgba(62, 72, 117, 0.2938311688311688) 100%
+  ); */
+  border-radius: 2px;
+  background: #e0e0e0;
+  box-shadow: 20px -20px 60px #bebebe, -20px 20px 60px #ffffff;
 }
+
+/* .body-gradient {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    42deg,
+    rgba(2, 0, 36, 1) 57%,
+    rgba(0, 30, 164, 1) 100%
+  );
+} */
