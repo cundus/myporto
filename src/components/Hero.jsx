@@ -11,7 +11,7 @@ const Hero = forwardRef((props, ref) => {
       <img
         src={Profile}
         alt="pic"
-        className="animate-bounce-in w-28 h-28 rounded-full border-2 border-white/50 object-none object-top mr-8 md:mr-10 md:w-60 md:h-60 md:rounded-lg"
+        className="animate-bounce-in w-28 h-28 rounded-full border-2 border-white/50 object-cover md:object-none md:object-top mr-8 md:mr-10 md:w-60 md:h-60 md:rounded-lg"
       />
       <div className="w-1/2 md:w-[18rem] animate-slide-in">
         <p className="text-4xl text-white font-mono">Hi!</p>
